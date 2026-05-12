@@ -36,20 +36,20 @@ Dies ist die Wurzelnotiz des Vaults. Sie ist eine **Map of Content (MoC)** und v
 
 ## 03 — Order Flow
 
-- [[03 - Order Flow/Footprint Charts]]
-- [[03 - Order Flow/Bid Ask Imbalance]]
-- [[03 - Order Flow/Delta und CVD]]
-- [[03 - Order Flow/Absorption und Exhaustion]]
-- [[03 - Order Flow/Order Book Analyse]]
-- [[03 - Order Flow/Tools und Datenquellen]]
+- [[03 - Order Flow/01 - Footprint Charts]]
+- [[03 - Order Flow/02 - Bid-Ask Imbalance]]
+- [[03 - Order Flow/03 - Delta und CVD]]
+- [[03 - Order Flow/04 - Absorption und Exhaustion]]
+- [[03 - Order Flow/05 - Order Book Analyse DOM Bookmap]]
+- [[03 - Order Flow/06 - Tools und Datenquellen]]
 
 ## 04 — Volume Profile
 
-- [[04 - Volume Profile/Grundlagen Volume Profile]]
-- [[04 - Volume Profile/POC und Value Area]]
-- [[04 - Volume Profile/VWAP und Anchored VWAP]]
-- [[04 - Volume Profile/Market Profile TPO]]
-- [[04 - Volume Profile/Kombinierte Anwendung]]
+- [[04 - Volume Profile/01 - Volume Profile Grundlagen]]
+- [[04 - Volume Profile/02 - POC Value Area VAH VAL]]
+- [[04 - Volume Profile/03 - VWAP und Anchored VWAP]]
+- [[04 - Volume Profile/04 - Market Profile TPO]]
+- [[04 - Volume Profile/05 - Kombinierte Anwendung]]
 
 ## 05 — Strategievorschläge (Synthese)
 
