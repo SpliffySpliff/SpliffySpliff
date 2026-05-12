@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <style>
+    .title{font-size:16px;font-weight:600;fill:#111}
+    .sub{font-size:12px;fill:#555}
+    .box{fill:#f4f7fb;stroke:#3c7fd0;stroke-width:1.2}
+    .box-decision{fill:#fff3cd;stroke:#b08900;stroke-width:1.2}
+    .box-action{fill:#e9f7ef;stroke:#2a9d8f;stroke-width:1.2}
+    .box-no{fill:#fde2e2;stroke:#c1121f;stroke-width:1.2}
+    .lbl{font-size:12px;fill:#111}
+    .lbl-b{font-size:12px;font-weight:600;fill:#111}
+    .edge{stroke:#444;stroke-width:1.2;fill:none;marker-end:url(#ah3)}
+    .edge-lbl{font-size:11px;fill:#555}
+  </style>
+  <defs>
+    <marker id="ah3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#444"/>
+    </marker>
+  </defs>
+  <rect width="880" height="540" fill="#fff"/>
+  <text class="title" x="20" y="28">Entscheidungsbaum — Strategie-Auswahl nach Markt-Regime</text>
+  <text class="sub" x="20" y="46">Vereinfacht. In der Praxis Regime-Filter quantitativ (z.B. ADX, Vol-of-Vol, Hurst-Exponent).</text>
+
+  <!-- Start -->
+  <rect class="box-decision" x="350" y="70" width="200" height="50" rx="6"/>
+  <text class="lbl-b" x="450" y="92" text-anchor="middle">Regime erkennen</text>
+  <text class="lbl" x="450" y="108" text-anchor="middle">Trendend oder Range?</text>
+
+  <!-- Trend branch -->
+  <path class="edge" d="M380,120 L200,180"/>
+  <text class="edge-lbl" x="240" y="155">trendend</text>
+  <rect class="box-decision" x="80" y="180" width="240" height="50" rx="6"/>
+  <text class="lbl-b" x="200" y="200" text-anchor="middle">Volatilität expandierend?</text>
+  <text class="lbl" x="200" y="216" text-anchor="middle">ATR-Ratio, Bollinger-Width</text>
+
+  <path class="edge" d="M150,230 L100,290"/>
+  <text class="edge-lbl" x="60" y="265">ja</text>
+  <rect class="box-action" x="20" y="290" width="200" height="60" rx="6"/>
+  <text class="lbl-b" x="120" y="312" text-anchor="middle">Breakout / ORB</text>
+  <text class="lbl" x="120" y="328" text-anchor="middle">→ [[Volatility Breakout - ORB]]</text>
+  <text class="lbl" x="120" y="344" text-anchor="middle">CVD-Bestätigung</text>
+
+  <path class="edge" d="M260,230 L290,290"/>
+  <text class="edge-lbl" x="295" y="265">nein</text>
+  <rect class="box-action" x="240" y="290" width="200" height="60" rx="6"/>
+  <text class="lbl-b" x="340" y="312" text-anchor="middle">Time-Series Momentum</text>
+  <text class="lbl" x="340" y="328" text-anchor="middle">→ [[Time-Series Momentum]]</text>
+  <text class="lbl" x="340" y="344" text-anchor="middle">12-1-Monats-Signal</text>
+
+  <!-- Range branch -->
+  <path class="edge" d="M520,120 L700,180"/>
+  <text class="edge-lbl" x="630" y="155">range</text>
+  <rect class="box-decision" x="560" y="180" width="240" height="50" rx="6"/>
+  <text class="lbl-b" x="680" y="200" text-anchor="middle">Klare Value Area?</text>
+  <text class="lbl" x="680" y="216" text-anchor="middle">POC + VAH/VAL definiert</text>
+
+  <path class="edge" d="M620,230 L580,290"/>
+  <text class="edge-lbl" x="565" y="265">ja</text>
+  <rect class="box-action" x="480" y="290" width="220" height="60" rx="6"/>
+  <text class="lbl-b" x="590" y="312" text-anchor="middle">Mean Reversion am VA-Edge</text>
+  <text class="lbl" x="590" y="328" text-anchor="middle">→ [[Vorschlag B - Mean Reversion am Value Area Edge]]</text>
+  <text class="lbl" x="590" y="344" text-anchor="middle">Fade VAH/VAL bei Absorption</text>
+
+  <path class="edge" d="M740,230 L780,290"/>
+  <text class="edge-lbl" x="800" y="265">nein</text>
+  <rect class="box-no" x="720" y="290" width="140" height="60" rx="6"/>
+  <text class="lbl-b" x="790" y="312" text-anchor="middle">Nicht traden</text>
+  <text class="lbl" x="790" y="328" text-anchor="middle">unklare Struktur</text>
+  <text class="lbl" x="790" y="344" text-anchor="middle">→ stand aside</text>
+
+  <!-- Common filter footer -->
+  <rect class="box" x="80" y="420" width="720" height="80" rx="6"/>
+  <text class="lbl-b" x="440" y="445" text-anchor="middle">Globale Filter (immer)</text>
+  <text class="lbl" x="440" y="465" text-anchor="middle">• News-Filter (FOMC, NFP) ausblenden  · Position Sizing via volatility-targeting (z.B. 1% Daily Vol)</text>
+  <text class="lbl" x="440" y="483" text-anchor="middle">• Maximaler Daily Loss → Auto-Halt  · Korrelations-Check mit anderen offenen Positionen</text>
+</svg>

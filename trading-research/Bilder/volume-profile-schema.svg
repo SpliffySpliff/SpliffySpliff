@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <style>
+    .bg{fill:#ffffff}
+    .axis{stroke:#444;stroke-width:1.2;fill:none}
+    .price-label{font-size:11px;fill:#222}
+    .title{font-size:16px;font-weight:600;fill:#111}
+    .sub{font-size:12px;fill:#555}
+    .bar{fill:#9ec5ff;stroke:#3c7fd0;stroke-width:0.6}
+    .bar-va{fill:#3c7fd0;stroke:#1f4e8a;stroke-width:0.6}
+    .bar-poc{fill:#e63946;stroke:#8b1d2a;stroke-width:0.8}
+    .candle-up{fill:#2a9d8f;stroke:#1d6e63}
+    .candle-down{fill:#e76f51;stroke:#a13d24}
+    .label{font-size:11px;fill:#111}
+    .legend-text{font-size:11px;fill:#222}
+    .dash{stroke-dasharray:4 3;stroke:#666;stroke-width:1;fill:none}
+  </style>
+  <rect class="bg" width="700" height="480"/>
+  <text class="title" x="20" y="28">Volume Profile — POC, Value Area, VAH, VAL</text>
+  <text class="sub" x="20" y="46">Horizontale Balken: gehandeltes Volumen pro Preisniveau über die Session</text>
+
+  <!-- Chart frame -->
+  <line class="axis" x1="80" y1="80" x2="80" y2="430"/>
+  <line class="axis" x1="80" y1="430" x2="660" y2="430"/>
+
+  <!-- Price labels -->
+  <g class="price-label">
+    <text x="50" y="90">110</text>
+    <text x="50" y="140">108</text>
+    <text x="50" y="190">106</text>
+    <text x="50" y="240">104</text>
+    <text x="50" y="290">102</text>
+    <text x="50" y="340">100</text>
+    <text x="50" y="390">98</text>
+  </g>
+
+  <!-- Candles (simple price path) -->
+  <g>
+    <line x1="430" y1="100" x2="430" y2="180" stroke="#1d6e63"/>
+    <rect class="candle-up" x="423" y="120" width="14" height="40"/>
+    <line x1="470" y1="130" x2="470" y2="220" stroke="#a13d24"/>
+    <rect class="candle-down" x="463" y="150" width="14" height="55"/>
+    <line x1="510" y1="180" x2="510" y2="260" stroke="#1d6e63"/>
+    <rect class="candle-up" x="503" y="210" width="14" height="40"/>
+    <line x1="550" y1="220" x2="550" y2="320" stroke="#a13d24"/>
+    <rect class="candle-down" x="543" y="240" width="14" height="65"/>
+    <line x1="590" y1="260" x2="590" y2="350" stroke="#1d6e63"/>
+    <rect class="candle-up" x="583" y="290" width="14" height="40"/>
+    <line x1="630" y1="300" x2="630" y2="380" stroke="#a13d24"/>
+    <rect class="candle-down" x="623" y="320" width="14" height="45"/>
+  </g>
+
+  <!-- Volume Profile bars (left side) -->
+  <!-- format: y, width -->
+  <g>
+    <rect class="bar" x="80" y="82" width="30" height="14"/>
+    <rect class="bar" x="80" y="100" width="55" height="14"/>
+    <rect class="bar" x="80" y="118" width="80" height="14"/>
+    <rect class="bar-va" x="80" y="136" width="120" height="14"/>
+    <text class="label" x="210" y="148">VAH ≈ 107</text>
+    <rect class="bar-va" x="80" y="154" width="160" height="14"/>
+    <rect class="bar-va" x="80" y="172" width="220" height="14"/>
+    <rect class="bar-va" x="80" y="190" width="240" height="14"/>
+    <rect class="bar-va" x="80" y="208" width="270" height="14"/>
+    <rect class="bar-poc" x="80" y="226" width="320" height="14"/>
+    <text class="label" x="410" y="238" font-weight="700" fill="#8b1d2a">POC (Point of Control)</text>
+    <rect class="bar-va" x="80" y="244" width="260" height="14"/>
+    <rect class="bar-va" x="80" y="262" width="220" height="14"/>
+    <rect class="bar-va" x="80" y="280" width="180" height="14"/>
+    <rect class="bar-va" x="80" y="298" width="140" height="14"/>
+    <text class="label" x="230" y="310">VAL ≈ 100</text>
+    <rect class="bar" x="80" y="316" width="100" height="14"/>
+    <rect class="bar" x="80" y="334" width="70" height="14"/>
+    <rect class="bar" x="80" y="352" width="50" height="14"/>
+    <rect class="bar" x="80" y="370" width="30" height="14"/>
+    <rect class="bar" x="80" y="388" width="20" height="14"/>
+  </g>
+
+  <!-- VA bracket -->
+  <line class="dash" x1="395" y1="143" x2="660" y2="143"/>
+  <line class="dash" x1="395" y1="305" x2="660" y2="305"/>
+  <text class="sub" x="500" y="160">Value Area = 70% Volumen</text>
+
+  <!-- Legend -->
+  <g transform="translate(20,440)">
+    <rect class="bar-poc" x="0" y="0" width="14" height="10"/><text class="legend-text" x="20" y="9">POC</text>
+    <rect class="bar-va" x="80" y="0" width="14" height="10"/><text class="legend-text" x="100" y="9">Value Area (VAH–VAL)</text>
+    <rect class="bar" x="260" y="0" width="14" height="10"/><text class="legend-text" x="280" y="9">Volumen außerhalb VA</text>
+  </g>
+</svg>

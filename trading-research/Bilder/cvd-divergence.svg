@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <style>
+    .title{font-size:16px;font-weight:600;fill:#111}
+    .sub{font-size:12px;fill:#555}
+    .axis{stroke:#444;stroke-width:1}
+    .lbl{font-size:11px;fill:#222}
+    .price{fill:none;stroke:#1f4e8a;stroke-width:2.2}
+    .cvd{fill:none;stroke:#c1121f;stroke-width:2.2;stroke-dasharray:6 3}
+    .div{stroke:#e63946;stroke-width:1.4;stroke-dasharray:4 3;fill:none}
+    .arrow{stroke:#111;stroke-width:1.2;fill:none;marker-end:url(#ah2)}
+    .annot{font-size:11px;fill:#111}
+    .legend{font-size:11px;fill:#222}
+  </style>
+  <defs>
+    <marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="720" height="460" fill="#fff"/>
+  <text class="title" x="20" y="28">Bearish CVD-Divergenz — Preis macht höheres Hoch, CVD nicht</text>
+  <text class="sub" x="20" y="46">Cumulative Volume Delta (CVD) hinkt nach: aggressive Käufe lassen nach, obwohl der Preis noch steigt</text>
+
+  <!-- Price chart top -->
+  <g transform="translate(0,70)">
+    <line class="axis" x1="60" y1="0" x2="60" y2="140"/>
+    <line class="axis" x1="60" y1="140" x2="700" y2="140"/>
+    <text class="lbl" x="20" y="10">Preis</text>
+    <path class="price" d="M70,110 L130,90 L180,100 L240,55 L300,75 L360,40 L420,70 L480,30 L540,60 L600,110 L660,135"/>
+    <!-- highs -->
+    <circle cx="360" cy="40" r="4" fill="#1f4e8a"/>
+    <circle cx="480" cy="30" r="4" fill="#1f4e8a"/>
+    <text class="annot" x="345" y="28">Hoch 1</text>
+    <text class="annot" x="465" y="18">Hoch 2 (höher)</text>
+    <path class="div" d="M360,40 L480,30"/>
+  </g>
+
+  <!-- CVD chart bottom -->
+  <g transform="translate(0,240)">
+    <line class="axis" x1="60" y1="0" x2="60" y2="140"/>
+    <line class="axis" x1="60" y1="140" x2="700" y2="140"/>
+    <text class="lbl" x="20" y="10">CVD</text>
+    <path class="cvd" d="M70,120 L130,100 L180,108 L240,70 L300,82 L360,40 L420,68 L480,55 L540,85 L600,120 L660,135"/>
+    <!-- CVD highs -->
+    <circle cx="360" cy="40" r="4" fill="#c1121f"/>
+    <circle cx="480" cy="55" r="4" fill="#c1121f"/>
+    <text class="annot" x="345" y="30">CVD Hoch 1</text>
+    <text class="annot" x="465" y="45">CVD Hoch 2 (tiefer)</text>
+    <path class="div" d="M360,40 L480,55"/>
+
+    <!-- divergence arrow -->
+    <path class="arrow" d="M540,90 L600,115"/>
+    <text class="annot" x="555" y="125" fill="#c1121f">→ Verkaufsdruck holt auf</text>
+  </g>
+
+  <text class="sub" x="20" y="430">Interpretation: Long-Setups vermeiden, mögliche Short-Setups suchen — idealerweise Bestätigung durch Footprint (Absorption auf der Ask-Seite).</text>
+
+  <g transform="translate(500,72)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#1f4e8a" stroke-width="2.2"/>
+    <text class="legend" x="38" y="4">Preis</text>
+    <line x1="0" y1="16" x2="30" y2="16" stroke="#c1121f" stroke-width="2.2" stroke-dasharray="6 3"/>
+    <text class="legend" x="38" y="20">CVD</text>
+  </g>
+</svg>

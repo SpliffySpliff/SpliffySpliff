@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <style>
+    .title{font-size:16px;font-weight:600;fill:#111}
+    .sub{font-size:12px;fill:#555}
+    .cell{font-size:11px;fill:#111}
+    .bid{fill:#cfe8ff;stroke:#5a8fd1}
+    .ask{fill:#ffd6cc;stroke:#c46a52}
+    .imb{fill:#ffd60a;stroke:#7a5800;stroke-width:1.5}
+    .price{font-size:11px;fill:#222;font-weight:600}
+    .lbl{font-size:11px;fill:#222}
+    .arrow{stroke:#111;stroke-width:1.2;fill:none;marker-end:url(#ah)}
+    .stack{fill:#ff6b35;stroke:#7a3416;stroke-width:1.5}
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="720" height="480" fill="#fff"/>
+  <text class="title" x="20" y="28">Footprint Chart — Bid x Ask pro Preisniveau</text>
+  <text class="sub" x="20" y="46">Jede Zelle: Volumen das auf Bid (links) bzw. Ask (rechts) gefüllt wurde. Gelb = Imbalance ≥ 300%, Orange = Stacked Imbalances.</text>
+
+  <!-- 3 footprint candles, side by side -->
+  <g transform="translate(40,80)">
+    <!-- Bar 1 -->
+    <g>
+      <text class="price" x="-30" y="20">105</text>
+      <rect class="bid" x="0" y="10" width="50" height="20"/><text class="cell" x="20" y="25">42</text>
+      <rect class="ask" x="50" y="10" width="50" height="20"/><text class="cell" x="70" y="25">38</text>
+
+      <text class="price" x="-30" y="50">104</text>
+      <rect class="bid" x="0" y="40" width="50" height="20"/><text class="cell" x="20" y="55">88</text>
+      <rect class="ask" x="50" y="40" width="50" height="20"/><text class="cell" x="70" y="55">120</text>
+
+      <text class="price" x="-30" y="80">103</text>
+      <rect class="bid" x="0" y="70" width="50" height="20"/><text class="cell" x="20" y="85">52</text>
+      <rect class="ask imb" x="50" y="70" width="50" height="20"/><text class="cell" x="70" y="85">210</text>
+
+      <text class="price" x="-30" y="110">102</text>
+      <rect class="bid" x="0" y="100" width="50" height="20"/><text class="cell" x="20" y="115">30</text>
+      <rect class="ask imb" x="50" y="100" width="50" height="20"/><text class="cell" x="70" y="115">155</text>
+
+      <text class="price" x="-30" y="140">101</text>
+      <rect class="bid" x="0" y="130" width="50" height="20"/><text class="cell" x="20" y="145">25</text>
+      <rect class="ask" x="50" y="130" width="50" height="20"/><text class="cell" x="70" y="145">60</text>
+
+      <text class="lbl" x="0" y="180">Bar 1 — Delta = +208</text>
+      <text class="lbl" x="0" y="196" fill="#7a5800">Stacked Imbalance auf Ask (2x)</text>
+    </g>
+
+    <!-- Bar 2 -->
+    <g transform="translate(220,0)">
+      <rect class="bid" x="0" y="10" width="50" height="20"/><text class="cell" x="20" y="25">95</text>
+      <rect class="ask" x="50" y="10" width="50" height="20"/><text class="cell" x="70" y="25">35</text>
+
+      <rect class="bid imb" x="0" y="40" width="50" height="20"/><text class="cell" x="20" y="55">240</text>
+      <rect class="ask" x="50" y="40" width="50" height="20"/><text class="cell" x="70" y="55">55</text>
+
+      <rect class="bid" x="0" y="70" width="50" height="20"/><text class="cell" x="20" y="85">180</text>
+      <rect class="ask" x="50" y="70" width="50" height="20"/><text class="cell" x="70" y="85">170</text>
+
+      <rect class="bid" x="0" y="100" width="50" height="20"/><text class="cell" x="20" y="115">60</text>
+      <rect class="ask" x="50" y="100" width="50" height="20"/><text class="cell" x="70" y="115">52</text>
+
+      <rect class="bid" x="0" y="130" width="50" height="20"/><text class="cell" x="20" y="145">30</text>
+      <rect class="ask" x="50" y="130" width="50" height="20"/><text class="cell" x="70" y="145">28</text>
+
+      <text class="lbl" x="0" y="180">Bar 2 — Delta = −210</text>
+      <text class="lbl" x="0" y="196" fill="#7a5800">Aggressive Verkäufer</text>
+    </g>
+
+    <!-- Bar 3 -->
+    <g transform="translate(440,0)">
+      <rect class="bid stack" x="0" y="10" width="50" height="20"/><text class="cell" x="20" y="25" fill="#fff">320</text>
+      <rect class="ask" x="50" y="10" width="50" height="20"/><text class="cell" x="70" y="25">62</text>
+
+      <rect class="bid stack" x="0" y="40" width="50" height="20"/><text class="cell" x="20" y="55" fill="#fff">280</text>
+      <rect class="ask" x="50" y="40" width="50" height="20"/><text class="cell" x="70" y="55">45</text>
+
+      <rect class="bid stack" x="0" y="70" width="50" height="20"/><text class="cell" x="20" y="85" fill="#fff">260</text>
+      <rect class="ask" x="50" y="70" width="50" height="20"/><text class="cell" x="70" y="85">50</text>
+
+      <rect class="bid" x="0" y="100" width="50" height="20"/><text class="cell" x="20" y="115">100</text>
+      <rect class="ask" x="50" y="100" width="50" height="20"/><text class="cell" x="70" y="115">90</text>
+
+      <rect class="bid" x="0" y="130" width="50" height="20"/><text class="cell" x="20" y="145">40</text>
+      <rect class="ask" x="50" y="130" width="50" height="20"/><text class="cell" x="70" y="145">45</text>
+
+      <text class="lbl" x="0" y="180">Bar 3 — 3x Stacked Imb. unten</text>
+      <text class="lbl" x="0" y="196" fill="#a13e16">→ potenzielles Reversal-Signal</text>
+    </g>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(40,320)">
+    <text class="sub" x="0" y="0" font-weight="600" fill="#111">Lesart pro Zelle:</text>
+    <rect class="bid" x="0" y="14" width="40" height="22"/><text class="cell" x="16" y="30">Bid</text>
+    <rect class="ask" x="40" y="14" width="40" height="22"/><text class="cell" x="55" y="30">Ask</text>
+    <text class="sub" x="90" y="28">links = an Bid getroffen (Verkäufer aggressiv) · rechts = an Ask getroffen (Käufer aggressiv)</text>
+
+    <rect class="imb" x="0" y="50" width="20" height="14"/>
+    <text class="sub" x="30" y="62">Imbalance: ≥ 3× größer als diagonal gegenüberliegende Zelle</text>
+
+    <rect class="stack" x="0" y="74" width="20" height="14"/>
+    <text class="sub" x="30" y="86">Stacked Imbalance: 3+ Imbalances in Folge — starker Hinweis auf Trendwechsel</text>
+
+    <text class="sub" x="0" y="114" font-style="italic">Delta = ΣAsk − ΣBid. Positives Delta = Käufer dominant.</text>
+  </g>
+</svg>
