@@ -26,6 +26,19 @@ Belege und Schlüsselwerke pro Thema. Primär kanonische Werke + zur aktuellen F
 - Salovey & Mayer; Goleman (EI; Konstruktkritik beachtet). Rosenberg — GFK. Neff — Self-Compassion.
 - Buss — *Evolution of Desire* (Partnerpräferenzen) **vs.** Eastwick & Finkel (Speed-Dating: erklärte Präferenzen sagen reale Anziehung kaum vorher); Geschlechterunterschiede moderat, hohe Überlappung, kulturvariabel.
 - Cheng & Henrich — Dominance vs. Prestige. Axelrod — *Evolution of Cooperation* (iterierte Spiele).
+- Joel et al. (2020, PNAS) — Machine Learning, ~11.000 Paare: beziehungsspezifische > partnerspezifische Prädiktoren. Finkel et al. — Online-Dating-Review (Auswahlüberlastung, schwache Matching-Validität). Rusbult — Investment-Modell. Aron — Self-Expansion.
+- Basson — responsives vs. spontanes Begehren. Mark/Muise — Begehrens-Diskrepanz. Geschlechtsunterschiede Sexualität: moderate Effekte, hohe Überlappung, soziokulturell moderiert; Reporting-Bias.
+- Ovulatory-Shift-Hypothese: frühe Befunde vs. vorregistrierte Replikationen (Effekte klein/inkonsistent/null) — Replikationskrise. PMDD klinisch real (Minderheit); pauschale PMS-Verhaltenszuschreibung überdehnt. Hormon-Pop-Etiketten (Oxytocin/Testosteron) als Verzerrung.
+- Geschlechtsspezifische Eifersucht (sexuell/emotional): Forced-Choice-artefaktabhängig, bei kontinuierlichen Maßen schwach — umstritten.
+- Hall — Humor & Anziehung (geteiltes Lachen). Martin — Humor Styles (affiliativ/selbstaufwertend vs. aggressiv/selbstabwertend).
+
+## Persönlichkeit & Unterschiede
+- Big Five / FFM — Costa & McCrae, Goldberg (lexikalische Hypothese); Roberts (Stabilität & Veränderung, Reifungsprinzip); Soto/John (Facetten). HEXACO — Ashton & Lee (Honesty-Humility).
+- Prädiktive Validität: Gewissenhaftigkeit → Beruf/Gesundheit/Langlebigkeit; Neurotizismus → Wohlbefinden/Beziehungsrisiko (Ozer & Benet-Martínez; Roberts et al.).
+- MBTI-Kritik: niedrige Retest-Reliabilität, Dichotomisierung kontinuierlicher Traits, schwache Validität; Forer/Barnum-Effekt.
+- Trait-Inferenz: Gosling (Räume/Verhalten), Mehl, Vazire, Ambady (thin-slicing — gut für E/C, schwach für N/O).
+- Werte/Motive: Schwartz (Basiswerte, Kreisstruktur); McClelland (Achievement/Power/Affiliation, implizite vs. explizite Motive).
+- Gewollte Persönlichkeitsänderung: Hudson & Fraley; Roberts-Meta-Analysen (verhaltensgetrieben, graduell).
 
 ## Manifestation & Zielerreichung
 - Law of Attraction / *The Secret* — metaphysische Ebene ohne empirische Stütze (Pseudowissenschaft); operative Praktiken über RAS/selektive Aufmerksamkeit, Confirmation/Survivorship Bias erklärbar.
