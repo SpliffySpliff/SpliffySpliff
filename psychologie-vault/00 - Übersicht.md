@@ -65,6 +65,19 @@ Wie *dieser* Mensch tickt — der beste verfügbare Prädiktor.
 - [[04 - Werte und Motive]]
 - [[05 - Persönlichkeit ändern - Stabilität und Veränderung]]
 
+### [[01 - Die innere Kamera|08 – Psychologie Stuff (persönlich)]]
+Persönliche Anwendungsschicht — Synthese der Gespräche, situations­spezifisch.
+- [[00 - So nutzt du diesen Ordner]]
+- [[01 - Die innere Kamera]] ← Kernkonzept
+- [[02 - Soziale Angst und Spotlight-Effekt]]
+- [[03 - Lächeln-Angst und Mimik]]
+- [[04 - Selbstsicherheit als Nachlauf]]
+- [[05 - Manifestation - Die Domänen-Regel]]
+- [[06 - Externe Hebel - Stimulanz, Peptide, Looksmaxxing]]
+- [[07 - Das Bus-Mädchen - Konkretes Vorgehen]]
+- [[08 - Wirken auf andere - Emotionslos-Lesart]]
+- [[09 - Der höchste Hebel jetzt]] ← Synthese & nächste Schritte
+
 ### [[01 - Einfluss vs Manipulation|06 – Ethik & Grenzen]]
 Die Linie zwischen Einfluss und Manipulation — und Selbstschutz.
 - [[01 - Einfluss vs Manipulation]]
