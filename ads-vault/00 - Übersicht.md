@@ -18,6 +18,10 @@ Wissensvault rund um Online-Werbung, Targeting und Zielgruppenansprache.
 3. Tags für Themen-Cluster nutzen: `#hook`, `#meta-ads`, `#b2b`, `#test-idee`
 4. Quellen am Ende jeder Notiz unter `## Quellen`
 
+## Aktive Kampagnen / Projekte
+
+- 🎯 **[Envy Affiliate-Setup (Mai 2026)](06%20-%20Kampagnen-Logbuch/2026-05%20-%20Envy%20Affiliate%20-%20Setup.md)** — Webdesign-Vermittlung für envy.ch, Region Biel/Seeland, 10 % Provision
+
 ## Index
-- [[99 - Quellen]] — globale Quellensammlung
-- [[00 - So nutzt du diesen Vault (Claude)]] — Hinweise für Claude beim Arbeiten im Vault
+- [99 - Quellen](99%20-%20Quellen.md) — globale Quellensammlung
+- [00 - So nutzt du diesen Vault (Claude)](00%20-%20So%20nutzt%20du%20diesen%20Vault%20(Claude).md) — Hinweise für Claude beim Arbeiten im Vault
