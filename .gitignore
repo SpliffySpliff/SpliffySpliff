@@ -1,1 +1,14 @@
+# Obsidian — lokale UI-States nicht syncen
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache
+**/.obsidian/appearance.json
+**/.trash/
+
+# OS Junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Lokale Auslieferungs-Artefakte
 Psychologe-n-Staff-dropin.zip

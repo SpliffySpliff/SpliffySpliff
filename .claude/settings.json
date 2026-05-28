@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "firecrawl": {
+      "type": "remote",
+      "url": "https://api.firecrawl.dev/mcp",
+      "env": {
+        "FIRECRAWL_API_KEY": "${FIRECRAWL_API_KEY}"
+      }
+    }
+  },
+  "permissions": {
+    "env": [
+      "FIRECRAWL_API_KEY"
+    ]
+  }
+}
