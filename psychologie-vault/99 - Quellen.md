@@ -51,6 +51,20 @@ Belege und Schlüsselwerke pro Thema. Primär kanonische Werke + zur aktuellen F
 - Mischel — Marshmallow (+ Replikation: SES-Konfund). **Ego Depletion**: Baumeister (1998) **vs.** Multilab-Replikationen (Effekt vernachlässigbar–klein, d≈0,1); Galla & Duckworth (Gewohnheiten > Willenskraft).
 - Ericsson — *Peak* (Deliberate Practice; "10.000 h" als Gladwell-Verzerrung). Dweck — *Mindset* (+ National Study of Learning Mindsets: real, aber kleiner Effekt).
 
+## Kaufverhalten & Werbung
+- Kahneman — *Thinking, Fast and Slow* (System 1/2). McKinsey — Consumer Decision Journey (2009/Updates).
+- Christensen — *Competing Against Luck* / Jobs to be Done. Levitt — „Marketing Myopia" („6-mm-Loch").
+- Deci & Ryan — Self-Determination Theory (Autonomie/Kompetenz/Verbundenheit). Maslow — Bedürfnishierarchie (populär, empirisch schwach als striktes Stufenmodell).
+- Petty & Cacioppo — Elaboration Likelihood Model. Cialdini — *Influence* (Anwendung auf Werbung). Heath — *The Hidden Power of Advertising* (Low-Attention Processing).
+- Vicary (1957, Subliminal) — **erfunden** / Selbstwiderruf. Spätere Forschung: bestenfalls schwache, nicht-praktikable Effekte. Zajonc — Mere Exposure.
+- Kahneman & Tversky — Prospect Theory (Verlustaversion, Framing). Ariely — *Predictably Irrational* (Decoy, Anchoring). Prelec & Loewenstein — Pain of Paying.
+- Thaler & Sunstein — *Nudge*. Iyengar & Lepper — „Jam Study" (Choice Overload). Goldstein & Johnson — Default-Effekt (Organspende-Daten).
+- **Byron Sharp / Ehrenberg-Bass Institute** — *How Brands Grow* (2010), *Part 2* (2015): Penetration > Loyalty, Double Jeopardy, Light Buyers, Mental + Physical Availability, Distinctive Brand Assets.
+- **Binet & Field** — IPA: *The Long and the Short of It* (2013), Updates seither: ~60% Brand / ~40% Activation.
+- Spiegel Research (Northwestern) — Reviews: 4,2–4,7 wirken glaubwürdiger als 5,0.
+- Regulatorik (EU): DSA (Digital Services Act, voll wirksam 2024), UGP-RL / Omnibus-Richtlinie / EU-Verbraucherrichtlinie (Streichpreis-Regel, Fake-Reviews-Verbot), Preisangaben-Richtlinie, DSGVO. Nationale Umsetzungen: UWG (DE/AT/CH).
+- Brignull — „Dark Patterns" (Begriff/Taxonomie); EU-Kommission/EDPB-Leitlinien zu manipulativen Designs.
+
 ## Ethik & Grenzen
 - Paulhus & Williams — Dark Triad. Gaslighting/Manipulationsmuster-Literatur.
 - Cialdini (Defensiv-Anwendung der Prinzipien). Axelrod (Strategie iterierter Spiele).
