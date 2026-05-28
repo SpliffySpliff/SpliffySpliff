@@ -32,6 +32,12 @@ Wie Nähe, Anziehung und Beziehungen funktionieren.
 - [[04 - Kommunikation und emotionale Intelligenz]]
 - [[05 - Beziehungspsychologie - Menschen verstehen]]
 - [[06 - Status und soziale Hierarchie]]
+- [[07 - Kennenlernen und Dating-Dynamik]]
+- [[08 - Was Beziehungen langfristig trägt]]
+- [[09 - Sexualpsychologie]]
+- [[10 - Eifersucht und Konflikt in Paaren]]
+- [[11 - Zyklus, Hormone und Mythen]]
+- [[12 - Humor, Spiel und Anziehung]]
 
 ### [[01 - Manifestation - Das Konzept|04 – Manifestation & Zielerreichung]]
 Was Manifestation ist, warum es sich wirksam anfühlt, wie man es real wirksam macht.
@@ -51,6 +57,40 @@ Wie man der Mensch wird, der das Gewünschte erreicht.
 - [[05 - Selbstvertrauen]]
 - [[06 - Alles werden was du willst - Realistischer Rahmen]]
 
+### [[01 - Big Five (OCEAN)|07 – Persönlichkeit & Unterschiede]]
+Wie *dieser* Mensch tickt — der beste verfügbare Prädiktor.
+- [[01 - Big Five (OCEAN)]]
+- [[02 - MBTI und der Typen-Mythos]]
+- [[03 - Persönlichkeit lesen und nutzen]]
+- [[04 - Werte und Motive]]
+- [[05 - Persönlichkeit ändern - Stabilität und Veränderung]]
+
+### [[01 - Wie Kaufentscheidungen wirklich entstehen|09 – Kaufverhalten & Werbung]]
+Wie Werbung wirklich wirkt, wie Kunden entscheiden, was Marken wachsen lässt.
+- [[01 - Wie Kaufentscheidungen wirklich entstehen]]
+- [[02 - Was Menschen wirklich kaufen - Jobs to be Done]]
+- [[03 - Aufmerksamkeit und Wahrnehmung in der Werbung]]
+- [[04 - Überzeugung in der Werbung]]
+- [[05 - Preispsychologie]]
+- [[06 - Verhaltensökonomie im Verkauf]]
+- [[07 - Vertrauen, Social Proof und Risikoreduktion]]
+- [[08 - Brand Building (Sharp, Binet & Field)]]
+- [[09 - Dark Patterns und ethische Grenzen]]
+- [[10 - Synthese - Customer Journey und wirksame Werbung]] ← Praxis
+
+### [[01 - Die innere Kamera|08 – Psychologie Stuff (persönlich)]]
+Persönliche Anwendungsschicht — Synthese der Gespräche, situations­spezifisch.
+- [[00 - So nutzt du diesen Ordner]]
+- [[01 - Die innere Kamera]] ← Kernkonzept
+- [[02 - Soziale Angst und Spotlight-Effekt]]
+- [[03 - Lächeln-Angst und Mimik]]
+- [[04 - Selbstsicherheit als Nachlauf]]
+- [[05 - Manifestation - Die Domänen-Regel]]
+- [[06 - Externe Hebel - Stimulanz, Peptide, Looksmaxxing]]
+- [[07 - Das Bus-Mädchen - Konkretes Vorgehen]]
+- [[08 - Wirken auf andere - Emotionslos-Lesart]]
+- [[09 - Der höchste Hebel jetzt]] ← Synthese & nächste Schritte
+
 ### [[01 - Einfluss vs Manipulation|06 – Ethik & Grenzen]]
 Die Linie zwischen Einfluss und Manipulation — und Selbstschutz.
 - [[01 - Einfluss vs Manipulation]]
@@ -62,7 +102,10 @@ Die Linie zwischen Einfluss und Manipulation — und Selbstschutz.
 ## Einstiegspfade
 - **"Ich will überzeugender werden"** → [[01 - Cialdini - Die 7 Prinzipien]] → [[05 - Charisma und Auftreten]] → [[06 - Überzeugung in der Praxis]]
 - **"Ich will Menschen besser lesen"** → [[05 - Grenzen des Menschenlesens]] → [[04 - Baselining und Cluster]] → [[01 - Körpersprache Grundlagen]]
-- **"Ich will Beziehungen / Anziehung verstehen"** → [[01 - Bindungstheorie]] → [[02 - Anziehung - Was Attraktion erzeugt]] → [[05 - Beziehungspsychologie - Menschen verstehen]]
+- **"Ich will Beziehungen / Anziehung verstehen"** → [[01 - Bindungstheorie]] → [[02 - Anziehung - Was Attraktion erzeugt]] → [[05 - Beziehungspsychologie - Menschen verstehen]] → [[07 - Kennenlernen und Dating-Dynamik]] → [[08 - Was Beziehungen langfristig trägt]]
+- **"Wie tickt dieser konkrete Mensch?"** → [[01 - Big Five (OCEAN)]] → [[02 - MBTI und der Typen-Mythos]] → [[03 - Persönlichkeit lesen und nutzen]] → [[04 - Werte und Motive]]
+- **"Werbung, die Kunden überzeugt"** → [[01 - Wie Kaufentscheidungen wirklich entstehen]] → [[02 - Was Menschen wirklich kaufen - Jobs to be Done]] → [[08 - Brand Building (Sharp, Binet & Field)]] → [[10 - Synthese - Customer Journey und wirksame Werbung]]
+- **"Frauen verstehen, ohne Schablonen"** → [[05 - Beziehungspsychologie - Menschen verstehen]] → [[11 - Zyklus, Hormone und Mythen]] → [[09 - Sexualpsychologie]] → [[12 - Humor, Spiel und Anziehung]]
 - **"Manifestation soll noch besser funktionieren"** → [[02 - Die Psychologie dahinter]] → [[06 - Manifestation effektiv nutzen]]
 - **"Ich will werden was ich will"** → [[01 - Identität und Selbstbild]] → [[06 - Alles werden was du willst - Realistischer Rahmen]]
 
